@@ -20,7 +20,7 @@ Sumário
   - [Escopo de classe](#escopo-de-classe)
   - [Escopo de objeto](#escopo-de-objeto)
 - [Relacionamentos](#relacionamentos)
-  - [Relacionamento de dependência](#relacionamento-de-dependência)
+  - [Relacionamento de Dependência](#relacionamento-de-dependência)
   - [Relacinamento de Agregação](#relacionamento-de-agregação)
   - [Relacionamento de Composição](#relacionamento-de-composição)
 
@@ -83,21 +83,21 @@ Forma de esconder e proteger dados dentro de um método específico, de maneira 
 
 Getters e Setters
 =====
-São métodos de acesso, 
+São métodos utilizados dentro de uma classe para acessar e alterar variáveis privadas dessa mesma classe.
 
 Assinatura de Método
 =====
-
+Determina a identidade de um método, sendo composto por nome, tipo e quantidade de parâmetros, e tipo de retorno.
 
 Sobrecarga de método
 =====
-
+Quando há diversos métodos com mesmo nome, porém de diferentes quantidades de parâmetros ou tipo de retorno, ou seja, com diferente assinatura exceto pelo nome.
 
 Escopos
 =====
 Escopo de classe
 -----
-
+É o nome dado às limitações de uma variável. O escopo inicia no começo da classe, e termina ao final dela. Todas as variáveis declaradas dentro dessa classe só é válida dentro dela, podendo ser usada pelos métodos criados após sua declaração.
 
 Escopo de objeto
 -----
@@ -105,8 +105,9 @@ Escopo de objeto
 
 Relacionamentos
 =====
-Relacionamento de dependência
+Relacionamento de Dependência
 -----
+
 
 Relacinamento de Agregação
 -----
