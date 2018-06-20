@@ -108,6 +108,7 @@ Relacionamentos
 Relacionamento de Dependência
 -----
 Ocorre quando uma classe precisa de outra para existir, e qualquer alteração na classe causa mudanças na outra que for dependente desta, como no exemplo UML a seguir. Qualquer alteração no lote, causará uma alteração na casa.
+
 <img align="center" src="ExemploDependencia.png">
 
 Relacionamento de Agregação
@@ -119,4 +120,5 @@ Ocorre quando uma classe agrega outra, mas que caso uma classe seja excluída, a
 Relacionamento de Composição
 -----
 Ocorre quando uma classe é composta por outra, e não pode continuar existindo caso a classe composta seja excluída. No exemplo, vemos que um pedido é composto por itens de pedido, porém, se o item de pedido deixa de existir, o pedido não pode continuar existindo, e deve ser removido também.
+
 <img align="center" src="ExemploComposicao.png">
