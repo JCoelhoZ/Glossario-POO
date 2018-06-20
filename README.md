@@ -101,7 +101,7 @@ Escopo de classe
 
 Escopo de objeto
 -----
-
+Define todos os atributos e métodos não estáticos, podendo ser alterados através de uma instância do objeto. Se algo não for estático, automaticamente é do escopo do objeto.
 
 Relacionamentos
 =====
